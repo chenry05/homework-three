@@ -1,0 +1,35 @@
+.container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+#password{
+    line-height: 75px;
+    text-align: center;
+    width: 100%;
+}
+
+#generate{
+    border-radius: 7px;
+    border: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+}
+
+#copy {
+    border-radius: 7px;
+    border: none;
+    color: white;
+    background-color: gray;
+    padding: 10px;
+}
+
+#pwrow{
+    vertical-align: middle;
+}

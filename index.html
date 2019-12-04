@@ -10,24 +10,28 @@
     <title>Password Generator</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8">
                 <header>
-                <h1>Password Generator</h1>
+                <h1>Password Generator</h1><br>
                 </header>
-                <h2>Generate a Password</h2>
+                <h2>Generate a Password</h2><br>
             <textarea
             readonly
             id="password"
             placeholder="Your Secure Password"
             aria-label="Generated Password"
-            ></textarea>
-            <button id="generate">Generate Password</button>
-            <button id="copy">
-            Copy to Clipboard
-            </button>
+            ></textarea><br><br>
+              <div class="row">
+                  <div class="col-md-30">
+                  <button onclick id="generate">Generate Password</button>
+                  </div>
+                  <div class="col-md-2"></div>
+                  <div class="col-md-3">
+                  <button onclick id="copy">Copy to Clipboard</button>
+                 </div>
             </div>
             <div class="col-md-2"></div>
         </div>
